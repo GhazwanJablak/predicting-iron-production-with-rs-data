@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "predicting-iron-production-with-rs-data"
+version = "0.1.0"
+description = "A package to predict iron pig production with satellite images time series"
+authors = ["ghazwan namou jablak <ghazwan.namou_jablak@syngenta.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.7.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.3"
+rasterio = "^1.4.3"
+geopandas = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
